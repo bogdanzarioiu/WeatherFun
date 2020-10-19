@@ -66,17 +66,41 @@
 			children = (
 				B53E03512521E82D00244943 /* AppDelegate.swift */,
 				B53E03532521E82D00244943 /* SceneDelegate.swift */,
-				B53E03552521E82D00244943 /* WeatherViewController.swift */,
-				B53E03652523469100244943 /* WeatherData.swift */,
-				B53E03692523C66C00244943 /* WeatherModel.swift */,
-				B53E0367252346B000244943 /* WeatherManager.swift */,
-				B53E036B25248E5E00244943 /* WeatherJokes.swift */,
+				B58D4CD9253D92E800CF9D22 /* View */,
+				B58D4CD8253D92D300CF9D22 /* Model */,
+				B58D4CDA253D930200CF9D22 /* Controller */,
 				B53E03572521E82D00244943 /* Main.storyboard */,
 				B53E035A2521E83100244943 /* Assets.xcassets */,
 				B53E035C2521E83100244943 /* LaunchScreen.storyboard */,
 				B53E035F2521E83100244943 /* Info.plist */,
 			);
 			path = WeatherFun;
+			sourceTree = "<group>";
+		};
+		B58D4CD8253D92D300CF9D22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B53E03652523469100244943 /* WeatherData.swift */,
+				B53E03692523C66C00244943 /* WeatherModel.swift */,
+				B53E036B25248E5E00244943 /* WeatherJokes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B58D4CD9253D92E800CF9D22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B53E03552521E82D00244943 /* WeatherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B58D4CDA253D930200CF9D22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B53E0367252346B000244943 /* WeatherManager.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
