@@ -10,7 +10,7 @@ import Foundation
 import CoreLocation
 
 class WeatherManager {
-    private let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=28ff23ca85384c074202ea8bccf807dc&units=metric"
+    private let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=your_api_key&units=metric"
     var delegate: WeatherManagerDelegate?
     
     
